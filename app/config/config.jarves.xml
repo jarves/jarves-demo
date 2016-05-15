@@ -10,16 +10,6 @@
     see: http://www.php.net/manual/en/timezones.php
     -->
   <timezone>Europe/Berlin</timezone>
-  <database>
-    <connections>
-      <!--
-        type: mysql|pgsql|sqlite (the pdo driver name)
-        persistent: true|false (if the connection should be persistent)
-        slave: true|false (if the connection is a slave or not (readonly or not))
-        charset: 'utf8'
-      -->
-    </connections>
-  </database> 
   <!--
   The cache layer we use for the distributed caching.
   (The `fast caching` is auto determined (Order: APC, XCache, Files))

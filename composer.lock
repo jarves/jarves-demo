@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9577911a4838b21eaa93fbd29dee37f3",
-    "content-hash": "66c89f4a5cc9ea1daa50cb73f0dd966c",
+    "hash": "2185ffbad3685cf6c2ef792cae096fef",
+    "content-hash": "8bfff4ff0f9b3c47fb8a0e4f80614121",
     "packages": [
         {
             "name": "composer/composer",
@@ -1071,12 +1071,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jarves/jarves.git",
-                "reference": "1298cf9c5e5db69ffc6928671c58b606b530e07e"
+                "reference": "d849805a1c9e4bc6ee108f492ce0a7fb2032dd25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jarves/jarves/zipball/1298cf9c5e5db69ffc6928671c58b606b530e07e",
-                "reference": "1298cf9c5e5db69ffc6928671c58b606b530e07e",
+                "url": "https://api.github.com/repos/jarves/jarves/zipball/d849805a1c9e4bc6ee108f492ce0a7fb2032dd25",
+                "reference": "d849805a1c9e4bc6ee108f492ce0a7fb2032dd25",
                 "shasum": ""
             },
             "require": {
@@ -1127,7 +1127,7 @@
                 "WCMS",
                 "cms"
             ],
-            "time": "2016-05-03 18:25:09"
+            "time": "2016-05-15 16:34:26"
         },
         {
             "name": "jarves/publication-bundle",
