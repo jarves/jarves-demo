@@ -59,7 +59,7 @@
             "bin/console propel:model:build",
 
             "bin/console cache:clear --env=prod",
-            
+
             "bin/console propel:migration:diff",
             "bin/console propel:migration:up",
 

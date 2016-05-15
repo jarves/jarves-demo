@@ -18,15 +18,6 @@
         slave: true|false (if the connection is a slave or not (readonly or not))
         charset: 'utf8'
       -->
-      <connection type="mysql" persistent="false" charset="utf8" slave="false">
-        <!--Can be a IP or a hostname. For SQLite enter here the path to the file.-->
-        <server>127.0.0.1</server>
-        <port></port>
-        <!--The schema/database name-->
-        <name>test</name>
-        <username>root</username>
-        <password></password>
-      </connection>
     </connections>
   </database> 
   <!--
