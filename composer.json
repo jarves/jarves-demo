@@ -58,10 +58,8 @@
         "compile": [
             "bin/console propel:model:build",
 
-            "touch var/db.sqlite3 && chmod 777 var/db.sqlite3",
-            "bin/console jarves:configuration:database sqlite db --server=var/db.sqlite3",
             "bin/console cache:clear --env=prod",
-
+            
             "bin/console propel:migration:diff",
             "bin/console propel:migration:up",
 
