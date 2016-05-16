@@ -30,3 +30,4 @@ security:
         - { path: ^/jarves/admin/file,  methods: [DELETE], roles: ROLE_NO_ACCESS }
         - { path: ^/jarves/object/,  methods: [DELETE], roles: ROLE_NO_ACCESS }
         - { path: ^/jarves/admin/system/config,  methods: [POST], roles: ROLE_NO_ACCESS }
+        - { path: ^/jarves/admin/backend/cache,  methods: [DELETE], roles: ROLE_NO_ACCESS }
