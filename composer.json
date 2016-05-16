@@ -59,6 +59,7 @@
             "bin/console propel:model:build",
 
             "bin/console cache:clear --env=prod",
+            "cat app/config/parameters.yml",
             "bin/console propel:migration:diff",
             "bin/console propel:migration:up",
 
