@@ -65,8 +65,7 @@
 
             "bin/console jarves:install:demo demo.jarves.io / -v",
 
-            "bin/console cache:warmup --env=prod",
-            "rm web/app_dev.php"
+            "bin/console cache:warmup --env=prod"
         ]
     },
     "extra": {
