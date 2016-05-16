@@ -1,0 +1,12 @@
+<config>
+  <bundle>
+    <listeners>
+      <event key="core/object/modify-pre" subject="jarves/user">
+        <call>AppBundle\EventListener\DemoAccessListener::checkUserOrGroup</call>
+      </event>
+      <event key="core/object/modify-pre" subject="jarves/group">
+        <call>AppBundle\EventListener\DemoAccessListener::checkUserOrGroup</call>
+      </event>
+    </listeners>
+  </bundle>
+</config>

@@ -1,6 +1,6 @@
 <config>
   <!--The system title of this installation.-->
-  <systemTitle>Fresh Installation</systemTitle>
+  <systemTitle>demo.jarves.io</systemTitle>
   <!--Comma separated list of supported languages. (systemwide)-->
   <languages>en</languages>
   <!--Is displayed as the administrator's email in error messages etc.-->
@@ -52,6 +52,6 @@
     -->
   <file groupPermission="rw" everyonePermission="r" disableModeChange="true">
     <!--The group owner name-->
-    <groupOwner>staff</groupOwner>
+    <groupOwner></groupOwner>
   </file>
 </config>
