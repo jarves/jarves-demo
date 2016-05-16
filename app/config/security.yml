@@ -25,8 +25,8 @@ security:
 
     access_control:
         # Remove access to routes that could harm the demo
-        - { path: ^/jarves/users/acl,  methods: [POST], ip: 127.0.0.1 }
-        - { path: ^/jarves/admin/system/bundle,  methods: [POST, PUT], ip: 127.0.0.1 }
-        - { path: ^/jarves/admin/file,  methods: [DELETE], ip: 127.0.0.1 }
-        - { path: ^/jarves/object/,  methods: [DELETE], ip: 127.0.0.1 }
-        - { path: ^/jarves/admin/system/config,  methods: [POST], ip: 127.0.0.1 }
+        - { path: ^/jarves/user/acl,  methods: [POST], roles: ROLE_NO_ACCESS }
+        - { path: ^/jarves/admin/system/bundle,  methods: [POST, PUT], roles: ROLE_NO_ACCESS }
+        - { path: ^/jarves/admin/file,  methods: [DELETE], roles: ROLE_NO_ACCESS }
+        - { path: ^/jarves/object/,  methods: [DELETE], roles: ROLE_NO_ACCESS }
+        - { path: ^/jarves/admin/system/config,  methods: [POST], roles: ROLE_NO_ACCESS }
