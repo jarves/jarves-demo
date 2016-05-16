@@ -56,16 +56,7 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
         ],
         "compile": [
-            "bin/console propel:model:build",
-
-            "bin/console cache:clear --env=prod",
-            "cat app/config/parameters.yml",
-            "bin/console propel:sql:build",
-            "bin/console propel:sql:insert --force",
-
-            "bin/console jarves:install:demo demo.jarves.io /",
-
-            "bin/console cache:warmup --env=prod"
+            "sh deploy/deploy.sh"
         ]
     },
     "extra": {
