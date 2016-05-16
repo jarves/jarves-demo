@@ -17,6 +17,17 @@ DirectoryIndex app.php
     Options -MultiViews
 </IfModule>
 
+<Files *.php>
+    Order Deny,Allow
+    Deny from all
+    Allow from 127.0.0.1
+</Files>
+
+<Files app.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
 

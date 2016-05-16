@@ -22,3 +22,11 @@ security:
 
             # form_login: ~
             # http://symfony.com/doc/current/cookbook/security/form_login_setup.html
+
+    access_control:
+        # Remove access to routes that could harm the demo
+        - { path: ^/jarves/users/acl,  methods: [POST], ip: 127.0.0.1 }
+        - { path: ^/jarves/admin/system/bundle,  methods: [POST, PUT], ip: 127.0.0.1 }
+        - { path: ^/jarves/admin/file,  methods: [DELETE], ip: 127.0.0.1 }
+        - { path: ^/jarves/object/,  methods: [DELETE], ip: 127.0.0.1 }
+        - { path: ^/jarves/admin/system/config,  methods: [POST], ip: 127.0.0.1 }
