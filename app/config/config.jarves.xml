@@ -52,6 +52,6 @@
     -->
   <file groupPermission="rw" everyonePermission="r" disableModeChange="true">
     <!--The group owner name-->
-    <groupOwner>staff</groupOwner>
+    <groupOwner></groupOwner>
   </file>
 </config>
