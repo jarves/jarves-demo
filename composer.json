@@ -60,8 +60,8 @@
 
             "bin/console cache:clear --env=prod",
             "cat app/config/parameters.yml",
-            "bin/console propel:migration:diff",
-            "bin/console propel:migration:up",
+            "bin/console propel:sql:build",
+            "bin/console propel:sql:insert --force",
 
             "bin/console jarves:install:demo demo.jarves.io /",
 
