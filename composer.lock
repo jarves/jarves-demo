@@ -1071,12 +1071,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jarves/jarves.git",
-                "reference": "d2e99be5d7b2b609ef4eff22d5fd76e9e8095762"
+                "reference": "b5d054d1b667d0b6b83695006b0c1befe1d35974"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jarves/jarves/zipball/d2e99be5d7b2b609ef4eff22d5fd76e9e8095762",
-                "reference": "d2e99be5d7b2b609ef4eff22d5fd76e9e8095762",
+                "url": "https://api.github.com/repos/jarves/jarves/zipball/b5d054d1b667d0b6b83695006b0c1befe1d35974",
+                "reference": "b5d054d1b667d0b6b83695006b0c1befe1d35974",
                 "shasum": ""
             },
             "require": {
@@ -1127,7 +1127,7 @@
                 "WCMS",
                 "cms"
             ],
-            "time": "2016-05-16 17:18:51"
+            "time": "2016-05-16 17:31:43"
         },
         {
             "name": "jarves/publication-bundle",
