@@ -66,6 +66,10 @@
             "bin/console jarves:install:demo demo.jarves.io / -v",
 
             "bin/console cache:warmup --env=prod"
+        ],
+        "demo": [
+            "bin/console propel:sql:insert --force",
+            "bin/console jarves:install:demo demo.jarves.io / -v"
         ]
     },
     "extra": {
